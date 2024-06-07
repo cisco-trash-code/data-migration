@@ -16,4 +16,5 @@ public class Town implements Serializable {
     private String code;
     private String article;
     private String name;
+//    private String local;
 }

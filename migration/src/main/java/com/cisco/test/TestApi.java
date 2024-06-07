@@ -17,6 +17,7 @@ public class TestApi {
 
     @GetMapping("/{id}")
     public Optional<Town> getData(@PathVariable String id) {
-        return repo.getData(Long.parseLong(id));
+//        return repo.getData(Long.parseLong(id));
+        return null;
     }
 }

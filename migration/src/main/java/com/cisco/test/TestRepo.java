@@ -10,15 +10,15 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class TestRepo {
 
-    private final JdbcClient jdbcClient;
-
-    public Optional<Town> getData(long id) {
-        var sql = "SELECT * FROM towns WHERE id=?";
-
-        return jdbcClient.sql(sql)
-                .param(id)
-                .query(Town.class)
-                .optional();
-    }
+//    private final JdbcClient jdbcClient;
+//
+//    public Optional<Town> getData(long id) {
+//        var sql = "SELECT * FROM towns WHERE id=?";
+//
+//        return jdbcClient.sql(sql)
+//                .param(id)
+//                .query(Town.class)
+//                .optional();
+//    }
 
 }
