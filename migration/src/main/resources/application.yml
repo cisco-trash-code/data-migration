@@ -1,14 +1,1 @@
-spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/migration
-    username: postgres
-    password: cisco
-    driver-class-name: org.postgresql.Driver
-  batch:
-    batch:
-      initialize-schema: always
-    datasource:
-      url: jdbc:postgresql://localhost:5432/migration_dest
-      username: postgres
-      password: cisco
-      driver-class-name: org.postgresql.Driver
+
